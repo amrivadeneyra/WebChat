@@ -29,10 +29,14 @@ npm start
 Actualmente no se aceptan contribuciones para este proyecto.
 
 # Capturas de pantalla
-- Interfaz de usuario 
-![Alt text](image.png)
-![Alt text](image-3.png)
+- **Interfaz de usuario**
+  
+![Interfaz de usuario](image.png)
 
-- Interfaz de servidor
-![Alt text](image-1.png) 
-![Alt text](image-2.png)
+![Interfaz de usuario](image-3.png)
+
+- **Interfaz de servidor**
+  
+![Interfaz de servidor](image-1.png)
+
+![Interfaz de servidor](image-2.png)
