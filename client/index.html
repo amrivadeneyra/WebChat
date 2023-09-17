@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Web</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+</head>
+
+<body>
+    <div class="general-container">
+        <div class="general-chats">
+            <div class="header-chats">
+                <label for="">Chats</label>
+            </div>
+            <div class="buscador">
+                <input type="text" id="buscar" placeholder="Buscar">
+            </div>
+
+            <div class="chat-ficticio">
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/autonoma.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Servidor de prueba Autónoma</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esta es la prueba cliente / servidor</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/avatar-3.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Manuel Rivadeneyra</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esto es un mensaje de prueba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/avatar-2.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Gabriel Bermúdez</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esto es un mensaje de prueba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/avatar-4.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Victor Huapaya</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esto es un mensaje de prueba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/avatar-5.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Angelo Bravo</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esto es un mensaje de prueba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/avatar-1.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Bladimir Romero</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esto es un mensaje de prueba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-carta">
+                    <div class="avatar">
+                        <img src="assets/avatar-6.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="contenedor-mensaje">
+                        <div class="nombre">
+                            <label for="">Andres Cancho</label>
+                        </div>
+                        <div class="mensaje-ficticio">
+                            <div class="img-and-label">
+                                <img src="assets/visto.png" alt="visto">
+                                <label for="">Esto es un mensaje de prueba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="chat-actual">
+            <div class="chat-wrapper">
+                <div class="chat-header">
+                    <div class="avatar margin">
+                        <img src="assets/autonoma.png" alt="avatar" id="avatar">
+                    </div>
+                    <div class="nombre">
+                        <label for="">Servidor de prueba Autónoma</label>
+                    </div>
+                </div>
+                <div class="chat-container">
+                    <div id="chat"></div>
+                    <div class="input-container">
+                        <input type="text" id="mensaje" placeholder="Escribe un mensaje...">
+                        <button type="submit" id="enviar" onclick="enviarMensaje()">
+                            <img src="assets/enviar.png" alt="Enviar">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
