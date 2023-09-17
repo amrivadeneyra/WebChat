@@ -6,7 +6,6 @@ Este proyecto implementa un chat web en tiempo real de cliente / servidor utiliz
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribución](#contribución)
-- [Agradecimientos](#agradecimientos)
 - [Capturas de Pantalla](#capturas-de-pantalla)
 ## Instalación
 
