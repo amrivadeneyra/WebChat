@@ -28,8 +28,8 @@ npm start
 
 Actualmente no se aceptan contribuciones para este proyecto.
 
-- Capturas de pantalla
-# Interfaz de usuario 
+# Capturas de pantalla
+- Interfaz de usuario 
 ![Alt text](image.png)
 ![Alt text](image-3.png)
 
